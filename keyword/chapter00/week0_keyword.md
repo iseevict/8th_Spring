@@ -98,7 +98,8 @@
         - 1024 ~ 49151 이 등록된 포트
         - 49152 ~ 65535 가 동적 포트이다.
 
-  ![Well-Known Ports](attachment:86cc7746-b61b-40d8-85b3-76970e4c75f5:image.png)
+  ![image](https://github.com/user-attachments/assets/26a1215d-b734-499f-aea8-390acdd4fa93)
+
 
   Well-Known Ports
 
@@ -110,7 +111,8 @@
 
   먼저 IP는 5개의 클래스로 나뉜다. (A ~ E / D랑 E는 멀티캐스트, 연구용)
 
-  ![image.png](attachment:7afdd5c3-a28e-4c9d-a6ea-e516cbd601f5:image.png)
+  ![image](https://github.com/user-attachments/assets/73ea17e1-9776-460c-a590-82dd8642a53d)
+
 
     - D 랑 E는 위에 적은대로 멀캐, 연구용이라 A, B, C만 알면 된다고 한다.
     - 사진으로 보면 이해가 안되는데 단순하게 [ 네트워크 와 호스트 ] 부분으로 나눈다고 생각하면 된다.
@@ -195,7 +197,8 @@
         - 전이중은 데이터가 수신측, 송신측 양 쪽 방향으로 동시 전송
     - 주로 연속성보단 신뢰성있는 전송이 중요할 때 사용함
 
-  ![TCP Flow](attachment:e2d2c88f-a75d-4ed1-8a50-2d67943b58b3:image.png)
+  ![image](https://github.com/user-attachments/assets/3d6c8b29-f535-42d3-bb93-932cf6cb19b0)
+
 
   TCP Flow
 
@@ -210,7 +213,8 @@
     - TCP 보다 속도 빠름
     - 주로 스트리밍 서비스 같은 신뢰성보다 연속성이 중요한 서비스에서 사용
 
-  ![UDP FLOW](attachment:a46c9662-4d8f-4c90-bdd6-918c153d13c9:image.png)
+  ![image](https://github.com/user-attachments/assets/ed91f6ad-7966-468b-9ebc-b1c49ecda63f)
+
 
   UDP FLOW
 
