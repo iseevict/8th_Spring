@@ -8,6 +8,6 @@
     - 서버가 응답
 - 페이지 렌더링
 
-1.
+2.
 
-![image.png](attachment:f2c0dd7f-d220-45d3-8e70-53bdbbc02579:image.png)
+![image](https://github.com/user-attachments/assets/e46dc162-74ab-41ab-8a77-163da017f8a7)
