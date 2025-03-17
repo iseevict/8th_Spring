@@ -55,15 +55,18 @@ Composite Key
 # 연관관계
 일대일 (1 To 1)
 - 하나의 레코드가 상대 테이블의 레코드 단 하나와 관계를 갖는 것
-[사진]
+![image](https://github.com/user-attachments/assets/1617392e-6501-4286-a6d3-e3c464bf3e97)
+
 
 일대다 (1 To N)
 - 한 쪽 테이블의 테코드가 관계를 맺은 테이블의 여러 레코드와 연결되는 것
-[사진]
+![image](https://github.com/user-attachments/assets/1b2b2462-dd90-4c8c-a660-b9e0a8d70357)
+
 
 다대다 (N TO M)
 - 여러 개의 레코드가 다른 테이블의 여러 개의 레코드와 관계를 갖는 것
-[사진]
+![image](https://github.com/user-attachments/assets/d322c945-0bcf-4c6d-9084-33a305475af5)
+
 
 # 정규화
 목표
@@ -74,9 +77,13 @@ Composite Key
 제 1 정규화
 - 테이블의 컬럼이 원자값(하나의 값)을 갖도록 테이블 분해
 - 예시
-[1정규화 전 사진]
+  
+![image](https://github.com/user-attachments/assets/29240433-54bd-4272-8041-36fed41bd67a)
+
 - 위 사진을 보면 추신수와 박세리는 2개의 취미를 갖고 있기 때문에 제 1 정규화를 만족하지 못한다.
-[1정규화 후 사진]
+
+![image](https://github.com/user-attachments/assets/6c2f474d-2cba-473d-aa9f-5295a9b8026d)
+
 - 제 1 정규화를 진행하면 위 사진처럼 된다
 
 제 2 정규화
@@ -84,11 +91,15 @@ Composite Key
 - 완전 함수 종속 이란?
   - 기본키의 부분집합이 결정자가 되어선 안된다는 것
 - 예시
-[2정규화 전 사진]
+
+![image](https://github.com/user-attachments/assets/cdd55508-3c64-4402-86d7-7d48022d380c)
+
 - 위 사진을 보면 기본키는 (학생번호, 강좌이름) 으로 복합키
 - 복합 기본키는 성적을 결정
 - 근데 여기서 강의실은 기본키의 부분집합인 강좌이름에 의해 결정이 될 수 있다 -> 2 정규형 불만족
-[2정규화 후 사진]
+
+![image](https://github.com/user-attachments/assets/805f45fb-e4a6-44d7-9aa0-19d925434f57)
+
 - 2 정규화를 통해 위 사진처럼 강의실을 별도의 테이블로 분해하여 만족시킬 수 있다.
 
 제 3 정규화
@@ -96,19 +107,27 @@ Composite Key
 - 이행적 종속이란?
   - A -> B, B -> C 가 성립될 때 A -> C 가 성립되는 것
 - 예시
-[3 정규화 전 사진]
+
+![image](https://github.com/user-attachments/assets/4f2850e4-f2dc-4711-a235-5739b32b9f27)
+
 - 위 사진을 보면 학생 번호가 강좌 이름을 결정, 강좌 이름이 수강료를 결정하고 있다
-[3 정규화 후 사진]
+
+![image](https://github.com/user-attachments/assets/6adda164-cc6d-4fb8-8716-b3fa95887382)
+
 - 3 정규화를 통해 위 사진처럼 테이블을 분해하여 제 3 정규형을 만족할 수 있다
 
 BCNF 정규화
 - 제 3 정규화를 진행한 테이블에 대해 모든 결정자가 후보키가 되도록 테이블을 분해하는 것
 - 예시
-[BCNF 전]
+
+![image](https://github.com/user-attachments/assets/836d110c-377f-4249-915a-7a67a83fddeb)
+
 - 위 사진을 보면 기본키는 (학생번호, 특강이름) 이다
 - 기본키는 교수를 결정하고 있고 교수 또한 특강 이름을 결정하고 있다.
 - 여기서 문제는 교수가 특강 이름을 결정하는 결정자이지만, 후보키는 아니라는 부분이다
-[BCNF 후]
+
+![image](https://github.com/user-attachments/assets/52b8c653-996b-49ce-97fe-f26783d41516)
+
 - 위 사진처럼 특강신청 테이블과 특강교수 테이블로 분해하여 BCNF 전규형을 만족시킬 수 있다.
 
 P.S. 항상 생각하지만 정규화는 참 글로 쓰면 어렵게 느껴지는데 평소에 자연스럽게 하던 것 같다.
