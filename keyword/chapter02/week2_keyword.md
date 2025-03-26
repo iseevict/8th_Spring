@@ -20,7 +20,8 @@ Join이란?
 
 INNER JOIN
 
-![image.png](attachment:b0e9bd7c-d802-4070-9703-29a4eb9401f3:image.png)
+![image](https://github.com/user-attachments/assets/9ddf8ec5-0b2b-4c63-bda0-e1e44f03f4c9)
+
 
 - MySQL 에선 JOIN, INNER JOIN, CROSS JOIN이 모두 같은 의미로 사용됨
 - 조인하는 테이블의 ON 절의 조건이 일치하는 결과만 출력
@@ -30,6 +31,13 @@ LEFT/RIGHT OUTER JOIN
 
 - 두 테이블이 합쳐질 때 왼쪽/오른쪽을 기준에 따라 기준 테이블의 것은 모두 출력이 되어야 함
 - 보통 LEFT OUTER JOIN 을 사용하며 FULL 은 성능상 거의 사용하지 않음
+
+Left Outer Join
+![image](https://github.com/user-attachments/assets/ab39688d-9bf5-4b11-9e9b-3bbb30d3c540)
+
+Right Outer Join
+![image](https://github.com/user-attachments/assets/e68e38a0-6df3-404c-8bc3-e3ed655720f6)
+
 
 ### N + 1 문제
 N + 1 문제란
