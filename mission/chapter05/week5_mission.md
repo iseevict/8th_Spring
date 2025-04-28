@@ -44,8 +44,16 @@
 ### 3. 하나의 트랜잭션에서 여러 엔티티를 처리하는 비즈니스 로직 구현
 
 #### 3-1. Member 가 탈퇴할 경우 관련된 모든 데이터를 삭제하는 API 구현
+- https://github.com/iseevict/8th_spring_prac/tree/mission5
 
 #### 3-2. @Transactional 을 적용하고, @Modifying 을 활용하여 Batch Delete 쿼리 최적화
+- 최적화 전
+  -  https://github.com/iseevict/8th_spring_prac/commit/d62d87fe63f07d1987df2c8d73f8238277d7b3ed
+
+- 최적화 후
+  - https://github.com/iseevict/8th_spring_prac/commit/c8b131ac649090fe90a0295b62c6760bdca38ca7
+
+-> for-each 로 삭제하던 것들 @Modifying + @Query 를 사용하여 최적화 완료
 
 ### 4. 동시성 문제가 발생할 수 있는 시나리오를 고민하고 해결책 적용
 
