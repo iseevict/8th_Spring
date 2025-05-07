@@ -47,7 +47,8 @@
 - 즉, Fetch Join 을 어노테이션을 통해 사용할 수 있도록 한 기능
 - Repository 필요한 부분에 붙여서 사용 가능
 
-[image.png](attachment:e467a808-ac5d-4e3e-aed8-33fab1949a0d:image.png)
+![image](https://github.com/user-attachments/assets/2ec02a44-1c99-40a3-b122-da5b2acac297)
+
 
 타입
 
