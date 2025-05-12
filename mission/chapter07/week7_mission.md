@@ -1,5 +1,7 @@
 # 일반 미션
-![image.png](attachment:db54cc85-56c8-439e-8e1c-f42ddeaeff0c:image.png)
+
+![image](https://github.com/user-attachments/assets/568a5eb3-7b12-4c77-8d1b-dd34d16f1e6f)
+
 
 **RestControllerAdvice 장점**
 
@@ -16,7 +18,8 @@
 - 에러 추적 어려움
 - 단위 테스트 및 통합 테스트 복잡성 증가
 
-![image.png](attachment:c5526a3d-86cb-42d6-940b-ff16cfb68ad1:image.png)
+![image](https://github.com/user-attachments/assets/36413353-cc14-4646-b1fe-7507035b235d)
+
 
 # 시니어 미션
 
