@@ -57,7 +57,8 @@ Spring에서는 LocalValidatorFactoryBean이 제약 조건 검증을 처리한�
     - $ : 문자열의 끝을 의미
     - [ ] : 내부에 패턴 입력
 
-  [image.png](attachment:f1bb3609-d4c6-48a4-aa7e-f44313a66424:image.png)
+ ![image](https://github.com/user-attachments/assets/dbbd8eeb-d847-468e-a5c2-8d921d7f2a9b)
+
 
   - @Email : 이메일 형식
   - @Size : 문자열의 최소, 최대 크기 검증 (@Size(min= , max= ) 이런식)
