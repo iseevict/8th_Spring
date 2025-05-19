@@ -2,22 +2,29 @@
 
 - 깃허브 관련 미션
 
+![image](https://github.com/user-attachments/assets/a1f4d4b5-8aaf-48cc-a2aa-51492308fec5)
+![image](https://github.com/user-attachments/assets/4b1af452-541e-44af-a278-f30290455fe8)
+![image](https://github.com/user-attachments/assets/3858dce4-ea2a-40d2-9bc6-fc7b33134fd4)
 
 
 - 1번 가게 추가 API
 
+![image](https://github.com/user-attachments/assets/a4640e65-d2e2-4ce8-a66a-db595196f222)
 
 
 - 2번 리뷰 추가 API
 
-
+![image](https://github.com/user-attachments/assets/33fffde5-0074-4585-a669-717c676b19cc)
+    - 리뷰 작성 시 해당 가게의 scoreAvg 값도 갱신됨
 
 - 3번 미션 추가 API
 
+![image](https://github.com/user-attachments/assets/db124ebc-a786-4d5a-ba37-01a44d696491)
 
 
 - 4번 미션 도전 API
 
+![image](https://github.com/user-attachments/assets/7fad3af8-da80-4c7e-8cf5-1b25f419d22d)
 
 
 **시니어 미션**
@@ -40,9 +47,10 @@
 
 - 기존에 Dynamic 어노테이션이 없는 상황
 
-  ![image.png](attachment:e7681395-266e-495c-a105-e3bf833b893a:image.png)
+![image](https://github.com/user-attachments/assets/f269107d-416b-457e-bcee-e0a329f86a49)
 
-  ![image.png](attachment:83ecfff2-a04f-4152-bf0e-a6d16a44b49d:image.png)
+![image](https://github.com/user-attachments/assets/cb4ba386-2b0d-4aef-9848-0efbc05e4dbc)
+
 
     ```java
     Hibernate: 
@@ -86,9 +94,10 @@
 
 - Dynamic 어노테이션 추가
 
-  ![image.png](attachment:e42ca92f-fd7a-4df6-8cd2-a141425e76a7:image.png)
+![image](https://github.com/user-attachments/assets/2c8da2f1-e146-401b-9e3b-1478261f2200)
 
-  ![image.png](attachment:841a38cc-ce99-459b-8efc-0ab291dc1596:image.png)
+![image](https://github.com/user-attachments/assets/4589330e-d4b7-4310-a2d5-c5f071ecd1f5)
+
 
     ```java
     Hibernate: 
