@@ -52,25 +52,31 @@
             - BCrypt 는 자동으로 솔트를 생성하여 레인보우 테이블 공격 방지
 
 
-    ![image.png](attachment:5ebdc6d1-6039-4680-99c6-d33a3dbf4be4:image.png)
+    ![image](https://github.com/user-attachments/assets/ae50a547-ba27-487f-8a71-f77110851585)
+
     
     → 회원가입용 데이터 입력
     
-    ![image.png](attachment:f5dd0383-fb3a-4365-940a-c5fbec9a5a67:image.png)
+    ![image](https://github.com/user-attachments/assets/654245dc-f022-42eb-a9e3-836f691435d2)
+
     
-    ![image.png](attachment:71dd5fef-2257-4ab5-b893-fa9d82229bbd:image.png)
+    ![image](https://github.com/user-attachments/assets/eb57ce7d-0465-4425-8e6a-b327ddacec66)
+
     
     → 로그인 성공
     
-    ![image.png](attachment:13cae36c-f8eb-4ece-936f-4cb021311e04:image.png)
+    ![image](https://github.com/user-attachments/assets/156dcdce-5ee5-4bf8-8f56-52002a941243)
+
     
     → 권한이 없어 /admin 접근 불가
     
-    ![image.png](attachment:f9e2d8eb-fd78-49d1-9ce4-7dfa82a691db:image.png)
+    ![image](https://github.com/user-attachments/assets/7ab89835-a168-432a-8d17-3492a8b4b137)
+
     
     → Role = admin 업데이트
     
-    ![image.png](attachment:e72fb715-aaa7-4ac1-8b03-a1e764d5f8ca:image.png)
+    ![image](https://github.com/user-attachments/assets/975c47c5-5a9f-4615-bf4b-a3cd3b8b3640)
+
     
     → 접근 가능
 
@@ -270,6 +276,7 @@
         1. 이렇게 등록된 인증 정보는 이후 컨트롤러에서 사용할 것
     3. 마지막으로 filterChain.doFilter() 를 호출해서 다음 필터, 컨트롤러 등에 요청을 넘겨줌.
 
-  ![image.png](attachment:740f0949-df47-4837-8762-30083989ff96:image.png)
+  ![image](https://github.com/user-attachments/assets/f5659bdf-51d9-4654-b915-4e679bcc271b)
 
-  ![image.png](attachment:dea86dfd-aecc-42e4-bccb-66c829c27353:image.png)
+
+  ![image](https://github.com/user-attachments/assets/5817c4b2-21c9-43fa-9571-63351fe634cc)
