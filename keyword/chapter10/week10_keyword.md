@@ -146,7 +146,8 @@
         1. 사용자의 권한이 충분하면 리소스 접근이 허용됨
         2. 권한이 부족하면 AccessDeniedException 이 발생하고 접근 거부됨
 
-  ![image.png](attachment:220d4f28-0078-432c-8acd-435424508469:image.png)
+  ![image](https://github.com/user-attachments/assets/7892d23f-a2e7-4331-80af-d749a718bf30)
+
 
   → 위에 설명한 그대로 인증과 인가 처리되는 과정
 
